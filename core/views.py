@@ -6,4 +6,4 @@ def index(request):
     return HttpResponse('welcome to my website')
 
 def home(request):
-    return render(request, 'core/layout.html')
+    return render(request, 'core/home.html')
